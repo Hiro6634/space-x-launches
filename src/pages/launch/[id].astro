@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import { getLaunchById } from "../../services/spacex";
 
-export const prerender = false;
+export const prerender = false; //Server
 const { id } = Astro.params;
 
 let launch = null;
